@@ -1,0 +1,46 @@
+<!DocType html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>progress bar</title>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+        body{
+            text-align: center;
+        }
+        #progressbar-section{
+            padding: 150px;
+        }
+        #progress{
+            margin: 20px auto;
+            width: 80%;
+            height: 40px;
+            background-color: rgb(112, 110, 107);
+            position: relative;
+        }
+        #bar{
+            background-color: rgb(119, 28, 28);
+            width: 10px;
+            height: 40px;
+            position: absolute;
+        }
+        
+    </style>
+    
+    </head>
+			
+    <body>
+        <section id="progressbar-section">
+            <h1>Progress bar</h1>
+            <div id="progress">
+                <div id="bar"></div>
+            </div>
+
+            <p id="loading"></p>
+        </section>
+
+        <script src="main.js"></script>
+	</body>
+</html>
